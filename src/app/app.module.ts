@@ -6,11 +6,13 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { JsUtilityComponent } from './js-utility/js-utility.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    JsUtilityComponent
   ],
   imports: [
     BrowserModule,
