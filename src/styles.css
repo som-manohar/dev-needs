@@ -27,13 +27,13 @@ body {
 .dev-menu {
   width: 200px;
   height: 100px;
-  background-color: rgb(164, 207, 46);
-  margin: auto 0 auto 30%;
+  background-color: rgb(228 247 178);
+  margin: auto;
   border-radius: 0px 0px 100px 100px;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
   color: #501a86;
-  font-family: cursive;
+  font-family: monospace;
   border-left: 10px solid #b5bd3a;
   border-right: 10px solid #b5bd3a;
   border-bottom: 10px solid #b5bd3a;
@@ -57,4 +57,7 @@ body {
 .card-body {
   background-color: #ffffff;
   color: #696767;
+}
+.dev-menu span {
+  font-size: 32px;
 }

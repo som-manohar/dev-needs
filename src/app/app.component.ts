@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = '<Dev-Needs/>';
+  title = 'Dev-Needs';
+  preTitle = '{';
+  postTitle = '}';
   public imgSrc:string = '../assets/images/dn.png';
 }
