@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  public imgSrc:string = '../../assets/images/dn.png';
+  public imgSrc:string = 'assets/images/dn.png';
   constructor(
     private router: Router
   ) { }
